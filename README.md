@@ -8,3 +8,5 @@ GS Tech Talk - Kotlin
 
 link iframe: https://www.npmjs.com/package/markdown-it-iframe
 
+
+pages link: https://vincentfree.github.io/kotlin-gs-presentation/
