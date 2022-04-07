@@ -8,17 +8,74 @@ _class: lead
 
 # Kotlin
 
-![bg](../images/kotlin-logo.png)
+![bg](https://raw.githubusercontent.com/vincentfree/kotlin-gs-presentation/main/images/kotlin-logo.png)
 
 ---
 ![bg left](https://picsum.photos/720?image=29)
 
 # Agenda
 
-- basic syntax
-- Hello world
-- All of the great features of the language
+- History
+- Good to know about Kotlin
+- What makes it great?
 - why should you care?
+
+---
+
+# History
+
+The first official 1.0 release was in February 2016
+
+
+---
+
+# Good to know about Kotlin
+
+- Is Kotlin an object-oriented language or a functional one?
+- What advantages does Kotlin give me over the Java programming language?
+- Is Kotlin compatible with Java?
+- What is it used for?
+
+---
+
+# Good to know about Kotlin
+
+- Is Kotlin an object-oriented language or a functional one?
+  * Kotlin has both object-oriented and functional constructs
+
+---
+
+# Good to know about Kotlin
+
+- What advantages does Kotlin give me over the Java programming language?
+  * Kotlin is
+    - more concise(40% less code with same results)
+    - more type-safe(better type system)
+    - supports non-nullable types
+    - smart casting
+    - higher-order functions
+    - extension functions 
+    - lambdas with receivers
+    - the list goes on...
+
+---
+
+# Good to know about Kotlin
+
+- Is Kotlin compatible with Java?
+  * Yes, Kotlin is 100% compatible with Java
+
+---
+
+# Good to know about Kotlin
+
+- What is it used for?
+  * Kotlin is used for
+    - Backend development
+    - Android development
+    - Web development
+    - Desktop development
+    - Native App development (iOS, Android, Windows, macOS)
 
 ---
 
