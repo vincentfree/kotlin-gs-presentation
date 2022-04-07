@@ -16,7 +16,7 @@ _class: lead
 # Agenda
 
 - History
-- Good to know about Kotlin
+- Fequently asked questions
 - What makes it great?
 - why should you care?
 
@@ -29,7 +29,7 @@ The first official 1.0 release was in February 2016
 
 ---
 
-# Good to know about Kotlin
+# Fequently asked questions
 
 - Is Kotlin an object-oriented language or a functional one?
 - What advantages does Kotlin give me over the Java programming language?
@@ -38,14 +38,14 @@ The first official 1.0 release was in February 2016
 
 ---
 
-# Good to know about Kotlin
+# Fequently asked questions
 
 - Is Kotlin an object-oriented language or a functional one?
   * Kotlin has both object-oriented and functional constructs
 
 ---
 
-# Good to know about Kotlin
+# Fequently asked questions
 
 - What advantages does Kotlin give me over the Java programming language?
   * Kotlin is
@@ -60,14 +60,14 @@ The first official 1.0 release was in February 2016
 
 ---
 
-# Good to know about Kotlin
+# Fequently asked questions
 
 - Is Kotlin compatible with Java?
   * Yes, Kotlin is 100% compatible with Java
 
 ---
 
-# Good to know about Kotlin
+# Fequently asked questions
 
 - What is it used for?
   * Kotlin is used for
