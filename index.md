@@ -24,9 +24,6 @@ GS Tech Talk | 11-04-2022 | Bart Tegenbosch, Vincent Free
 - why should you care?
 
 ---
-<!-- _class: covercenter -->
-# History
----
 # History
 
 * Started in  2011
