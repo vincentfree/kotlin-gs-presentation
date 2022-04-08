@@ -1,14 +1,17 @@
 ---
 marp: true
 # theme: gaia
-theme: dracula
+theme: ing
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
-_class: lead
+# _class: lead
+
 ---
+<!-- _class: cover -->
+# Why Kotlin
 
-# Kotlin
+![bg right](https://raw.githubusercontent.com/vincentfree/kotlin-gs-presentation/main/images/kotlin-logo.png)
 
-![bg](https://raw.githubusercontent.com/vincentfree/kotlin-gs-presentation/main/images/kotlin-logo.png)
+GS Tech Talk | 11-04-2022 | Bart Tegenbosch, Vincent Free
 
 ---
 ![bg left](https://picsum.photos/720?image=29)
@@ -17,14 +20,20 @@ _class: lead
 
 - History
 - Fequently asked questions
-- What makes it great?
+- Features of Kotlin
 - why should you care?
 
 ---
-
+<!-- _class: covercenter -->
+# History
+---
 # History
 
-The first official 1.0 release was in February 2016
+* Started in  2011
+
+* The first official 1.0 release was in February 2016
+
+* At Google I/O 2017, Google Announced First-class Support For Kotlin On Android.
 
 
 ---

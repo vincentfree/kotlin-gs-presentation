@@ -27,6 +27,24 @@ h1 {
 
 }
 
+section.covercenter {
+    padding: 0;
+    padding-top: 5em;
+    margin: 0;
+}
+
+section.covercenter h1 {
+    font-style: bold;
+    background: var(--ing-orange);
+    display: block;
+    border-radius: 20px;
+    color: white;
+    margin-left: 100px;
+    margin-right: auto;
+    padding: 15px;
+    /* text-align: center; */
+}
+
 section.cover {
     padding: 0;
     padding-top: 5em;
