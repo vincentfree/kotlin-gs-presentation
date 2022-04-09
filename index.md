@@ -378,6 +378,15 @@ fun main() {
 <iframe height="400" width="100%" src="https://pl.kotl.in/V_VTR4xS9"></iframe>
 
 ---
+
+# Inline classes
+
+> Create wrappers around a type.
+
+<iframe height="400" width="100%" src="https://pl.kotl.in/aIHSBDoYb"></iframe>
+
+---
+
 # Type safe builders
 
 ```kotlin
