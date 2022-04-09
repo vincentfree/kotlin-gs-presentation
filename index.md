@@ -320,6 +320,8 @@ class AlwaysOpen {
 
 Flow control structures can be used as expressions which can produce a result. Making the code much more consise and readable.
 
+> Kotlin doesn't have a turnary operator. It's replaced by the if/else expression.
+
 ```kotlin
 // if-else expression
 val result = if (true) "true" else "false" // "true"
@@ -345,12 +347,6 @@ val result = when (1) {
 
 ---
 
-# FLow control - when
-
-<iframe height="400" width="100%" src="https://pl.kotl.in/RTKHRE8q8?from=9&to=17"></iframe>
-
----
-
 # Flow control - loops
 
 <iframe height="400" width="100%" src="https://pl.kotl.in/TnR8o9pne"></iframe>
@@ -362,19 +358,6 @@ val result = when (1) {
 # Flow control - ranges
 
 <iframe height="400" width="100%" src="https://pl.kotl.in/mgyTyVY4L?from=2&to=19"></iframe>
-
----
-
-# Flow control - conditional expressions
-
-<iframe height="400" width="100%" src="https://pl.kotl.in/gA0dO6f1t?from=2&to=3" width="100%"></iframe>
-
-> Kotlin doesn't have a turnary operator, the if/else expression replaced it.
----
-
-# Flow control - try expression
-
-<iframe height="400" width="100%" src="https://pl.kotl.in/8FoD1ngin"></iframe>
 
 ---
 
