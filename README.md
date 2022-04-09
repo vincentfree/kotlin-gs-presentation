@@ -20,5 +20,5 @@ pages link: https://vincentfree.github.io/kotlin-gs-presentation/
     * inline
 * Result (runCatching)
 * Inline classes
-* Delegation
+* ~~Delegation~~
 * Generics
