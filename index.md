@@ -315,6 +315,33 @@ class AlwaysOpen {
     }
 }
 ```
+---
+# Expressions
+
+Flow control structures can be used as expressions which can produce a result. Making the code much more consise and readable.
+
+```kotlin
+// if-else expression
+val result = if (true) "true" else "false" // "true"
+```
+```kotlin
+// try-catch expression
+val result = try { 
+    "success" 
+} catch(e: Exception) { 
+    "failure" 
+} // "success"
+```
+```kotlin
+// when expression
+val result = when (1) {
+    1 -> "one"
+    2 -> "two"
+    else -> "other"
+} // "one"
+```
+
+<iframe height="400" width="100%" src="https://pl.kotl.in/1VJ9pVXJY"></iframe>
 
 ---
 
