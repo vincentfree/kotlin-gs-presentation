@@ -14,7 +14,7 @@ pages link: https://vincentfree.github.io/kotlin-gs-presentation/
 * ~~Immutability (val/var)~~
 * ~~Expression vs statement: when, if, try, etc. (pertially covered)~~
 * Scope functions (extend existing)
-* Extension functions 
+* ~~Extension functions~~ 
 * Functions
     * infix
     * inline
