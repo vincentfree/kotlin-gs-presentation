@@ -27,11 +27,8 @@ GS Tech Talk | 11-04-2022 | Bart Tegenbosch, Vincent Free
 # History
 
 * Started in  2011
-
 * The first official 1.0 release was in February 2016
-
 * At Google I/O 2017, Google Announced First-class Support For Kotlin On Android.
-
 * Kotlin @ ING 2020
 
 ---
@@ -315,6 +312,24 @@ class AlwaysOpen {
     }
 }
 ```
+---
+
+# Immutability
+
+- Makes it easier to reason about the code
+- Helps in concurrent environments
+
+```kotlin
+fun main() {
+    var a = 1
+    a = 1 // OK
+    
+    val b = 1
+    b = 2 // Exception: Val cannot be reassigned
+}
+```
+
+<iframe height="200" width="100%" src="https://pl.kotl.in/m_LIUqybW"></iframe>
 
 ---
 
