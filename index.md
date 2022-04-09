@@ -32,6 +32,7 @@ GS Tech Talk | 11-04-2022 | Bart Tegenbosch, Vincent Free
 
 * At Google I/O 2017, Google Announced First-class Support For Kotlin On Android.
 
+* Kotlin @ ING 2020
 
 ---
 
@@ -87,7 +88,7 @@ GS Tech Talk | 11-04-2022 | Bart Tegenbosch, Vincent Free
 
 # Null safety Kotlin
 
-<iframe src="https://pl.kotl.in/Z25c29dSL?from=5&to=12" height="250" width="800"></iframe>
+<iframe src="https://pl.kotl.in/Z25c29dSL?from=5&to=12" height="250" width="100%"></iframe>
 
 ---
 
@@ -111,7 +112,7 @@ public class NullSafety_01 {
 
 # Low boilerplate Kotlin
 
-<iframe src="https://pl.kotl.in/tye-UNrWQ?from=7&to=13" height="200"></iframe>
+<iframe src="https://pl.kotl.in/tye-UNrWQ?from=7&to=13" height="200" width="100%"></iframe>
 
 ---
 
@@ -293,7 +294,7 @@ public record SimplePerson(String firstName, String lastName, int age) {}
 
 # Final by default - Kotlin
 
-<iframe src="https://pl.kotl.in/ntE8RpYjq?from=6&to=11" height=200px></iframe>
+<iframe src="https://pl.kotl.in/ntE8RpYjq?from=6&to=11" height=200px width="100%"></iframe>
 
 
 ---
@@ -317,7 +318,51 @@ class AlwaysOpen {
 
 ---
 
-# Type safe builders TODO
+# FLow control - when
+
+<iframe height="400" width="100%" src="https://pl.kotl.in/RTKHRE8q8?from=9&to=17"></iframe>
+
+---
+
+# Flow control - loops
+
+<iframe height="400" width="100%" src="https://pl.kotl.in/TnR8o9pne"></iframe>
+
+> This example also shows a feature called operator overloading, here iterator is an operator with a special meaning enabling use to write the `for (animal in zoo) {...}` loop without calling the internal list.
+
+---
+
+# Flow control - ranges
+
+<iframe height="400" width="100%" src="https://pl.kotl.in/mgyTyVY4L?from=2&to=19"></iframe>
+
+---
+
+# Flow control - conditional expressions
+
+<iframe height="400" width="100%" src="https://pl.kotl.in/gA0dO6f1t?from=2&to=3" width="100%"></iframe>
+
+> Kotlin doesn't have a turnary operator, the if/else expression replaced it.
+---
+
+# Flow control - try expression
+
+
+---
+
+# Scope functions - let
+
+<iframe height="400" width="100%" src="https://pl.kotl.in/6Dz02Gb1R"></iframe>
+
+---
+
+# sealed classes
+
+
+<iframe height="400" width="100%" src="https://pl.kotl.in/V_VTR4xS9"></iframe>
+
+---
+# Type safe builders
 
 ```kotlin
 import com.example.html.* // see declarations below
@@ -353,38 +398,3 @@ fun result() =
     }
 
 ```
-
----
-
-# sealed classes TODO
-
-
-<iframe height="320" src="https://pl.kotl.in/V_VTR4xS9"></iframe>
-
----
-
-# FLow control - when
-
-<iframe height="250" src="https://pl.kotl.in/RTKHRE8q8?from=9&to=17"></iframe>
-
----
-
-# Flow control - loops
-
-<iframe height="300" src="https://pl.kotl.in/TnR8o9pne"></iframe>
-
-> This example also shows a feature called operator overloading, here iterator is an operator with a special meaning enabling use to write the `for (animal in zoo) {...}` loop without calling the internal list.
-
----
-
-# Flow control - ranges
-
-<iframe height="400" src="https://pl.kotl.in/mgyTyVY4L?from=2&to=19"></iframe>
-
----
-
-# Flow control - conditional expressions
-
-<iframe src="https://pl.kotl.in/gA0dO6f1t?from=2&to=3"></iframe>
-
-> Kotlin doesn't have a turnary operator, the if/else expression replaced it.
