@@ -399,3 +399,11 @@ fun result() =
     }
 
 ```
+
+---
+
+# Extension functions
+
+> Kotlin provides the ability to extend a class with new functionality without having to inherit from the class or use design patterns such as Decorator. This is done via special declarations called extensions.
+
+<iframe height="400" width="100%" src="https://pl.kotl.in/Z1px2hXOC"></iframe>
