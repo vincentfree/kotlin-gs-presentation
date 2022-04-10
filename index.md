@@ -1,6 +1,5 @@
 ---
 marp: true
-# theme: gaia
 theme: ing
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 # _class: lead
@@ -19,11 +18,11 @@ GS Tech Talk | 11-04-2022 | Bart Tegenbosch, Vincent Free
 # Agenda
 
 - History
-- Fequently asked questions
+- Frequently asked questions
 - Features of Kotlin
-- why should you care?
 
 ---
+
 # History
 
 * Started in  2011
@@ -33,7 +32,7 @@ GS Tech Talk | 11-04-2022 | Bart Tegenbosch, Vincent Free
 
 ---
 
-# Fequently asked questions
+# Frequently asked questions
 
 - Is Kotlin an object-oriented language or a functional one?
 - What advantages does Kotlin give me over the Java programming language?
@@ -42,14 +41,14 @@ GS Tech Talk | 11-04-2022 | Bart Tegenbosch, Vincent Free
 
 ---
 
-# Fequently asked questions
+# Frequently asked questions
 
 - Is Kotlin an object-oriented language or a functional one?
   * Kotlin has both object-oriented and functional constructs
 
 ---
 
-# Fequently asked questions
+# Frequently asked questions
 
 - What advantages does Kotlin give me over the Java programming language?
   * Kotlin is
@@ -58,20 +57,20 @@ GS Tech Talk | 11-04-2022 | Bart Tegenbosch, Vincent Free
     - supports non-nullable types
     - smart casting
     - higher-order functions
-    - extension functions 
+    - extension functions
     - lambdas with receivers
     - the list goes on...
 
 ---
 
-# Fequently asked questions
+# Frequently asked questions
 
 - Is Kotlin compatible with Java?
   * Yes, Kotlin is 100% compatible with Java
 
 ---
 
-# Fequently asked questions
+# Frequently asked questions
 
 - What is it used for?
   * Kotlin is used for
@@ -92,17 +91,13 @@ GS Tech Talk | 11-04-2022 | Bart Tegenbosch, Vincent Free
 # Null safety Java
 
 ```java
-public class NullSafety_01 {
-    public static void main(String[] args) {
-        String nonNull = "this value is ok";
-        String isNull = null;
-        var list = List.of(nonNull,isNull);
-        var set = list.stream()
-                .map(str -> str.toUpperCase())
-                .collect(Collectors.toSet());
-        set.forEach(System.out::println);
-    }
-}
+    String nonNull = "this value is ok";
+    String isNull = null;
+    var list = List.of(nonNull,isNull);
+    var set = list.stream()
+        .map(str -> str.toUpperCase())  // <- can't call toUpperCase on null
+        .collect(Collectors.toSet());
+    set.forEach(System.out::println);
 ```
 
 ---
@@ -291,27 +286,8 @@ public record SimplePerson(String firstName, String lastName, int age) {}
 
 # Final by default - Kotlin
 
-<iframe src="https://pl.kotl.in/ntE8RpYjq?from=6&to=11" height=200px width="100%"></iframe>
+<iframe src="https://pl.kotl.in/ntE8RpYjq?from=6&to=11" height="200" width="100%"></iframe>
 
-
----
-
-# Final by default - Java
-
-```java
-class ExtendingClass extends AlwaysOpen {
-    public static void main(String[] args) {
-        System.out.println(TEXT);
-    }
-}
-class AlwaysOpen {
-    String text = "Open";
-    
-    AlwaysOpen(String text) {
-        this.text = text;
-    }
-}
-```
 ---
 
 # Immutability
@@ -319,55 +295,29 @@ class AlwaysOpen {
 - Makes it easier to reason about the code
 - Helps in concurrent environments
 
-```kotlin
-fun main() {
-    var a = 1
-    a = 1 // OK
-    
-    val b = 1
-    b = 2 // Exception: Val cannot be reassigned
-}
-```
-
-<iframe height="200" width="100%" src="https://pl.kotl.in/m_LIUqybW"></iframe>
+<iframe height="200" width="100%" src="https://pl.kotl.in/XjbFZkB-Q?from=2&to=6"></iframe>
 
 ---
+
 # Expressions
 
-Flow control structures can be used as expressions which can produce a result. Making the code much more consise and readable.
+Flow control structures can be used as expressions which can produce a result. Making the code much more concise and readable.
 
-> Kotlin doesn't have a turnary operator. It's replaced by the if/else expression.
+<!--  Kotlin doesn't have a turnary operator. It's replaced by the if/else expression. -->
 
-```kotlin
-// if-else expression
-val result = if (true) "true" else "false" // "true"
-```
-```kotlin
-// try-catch expression
-val result = try { 
-    "success" 
-} catch(e: Exception) { 
-    "failure" 
-} // "success"
-```
-```kotlin
-// when expression
-val result = when (1) {
-    1 -> "one"
-    2 -> "two"
-    else -> "other"
-} // "one"
-```
+<iframe height="450" width="100%" src="https://pl.kotl.in/XsKD_eKsR"></iframe>
 
-<iframe height="400" width="100%" src="https://pl.kotl.in/1VJ9pVXJY"></iframe>
+---
+
+# Higher order functions
+
+<iframe height="400" width="100%" src="https://pl.kotl.in/TIuJ65oZv"></iframe>
 
 ---
 
 # Flow control - loops
 
-<iframe height="400" width="100%" src="https://pl.kotl.in/TnR8o9pne"></iframe>
-
-> This example also shows a feature called operator overloading, here iterator is an operator with a special meaning enabling use to write the `for (animal in zoo) {...}` loop without calling the internal list.
+<iframe height="150" width="100%" src="https://pl.kotl.in/aVZHGgB8_?from=2&to=4"></iframe>
 
 ---
 
@@ -377,33 +327,73 @@ val result = when (1) {
 
 ---
 
-# Scope functions - let
+# Flow control - Result types
 
-<iframe height="400" width="100%" src="https://pl.kotl.in/6Dz02Gb1R"></iframe>
+<iframe height="250" width="100%" src="https://pl.kotl.in/neSKuJNRp"></iframe>
 
 ---
 
-# sealed classes
+# Scope functions - let
 
+<iframe height="250" width="100%" src="https://pl.kotl.in/6Dz02Gb1R"></iframe>
+
+---
+
+# Scope functions - run
+
+<iframe height="200" width="100%" src="https://pl.kotl.in/ORn5xVVle"></iframe>
+
+---
+
+# Scope functions - apply
+
+<iframe height="200" width="100%" src="https://pl.kotl.in/4XZbb7TjX"></iframe>
+
+---
+
+# Scope functions - also
+
+<iframe height="200" width="100%" src="https://pl.kotl.in/HeluOyxy6"></iframe>
+
+---
+
+# Scope functions - with
+
+<iframe height="250" width="100%" src="https://pl.kotl.in/7f1_XgSnh?from=7&to=13"></iframe>
+
+---
+
+# Sealed classes
 
 <iframe height="400" width="100%" src="https://pl.kotl.in/V_VTR4xS9"></iframe>
 
 ---
 
-# Inline classes
+# Value classes
 
 > Create wrappers around a type.
-
-<iframe height="400" width="100%" src="https://pl.kotl.in/aIHSBDoYb"></iframe>
+<iframe height="250" width="100%" src="https://pl.kotl.in/RIiweQYf6"></iframe>
 
 ---
 
-# Type safe builders
+# Extension functions
+
+> Kotlin provides the ability to extend a class with new functionality without having to inherit from the class or use design patterns such as Decorator. This is done via special declarations called extensions.
+
+<iframe height="250" width="100%" src="https://pl.kotl.in/fdLjmxenb"></iframe>
+
+---
+
+# Named parameters
+
+<iframe height="200" width="100%" src="https://pl.kotl.in/TuJit_h5d"></iframe>
+
+---
+
+# Type safe builders (DSL)
 
 ```kotlin
-import com.example.html.* // see declarations below
-
-fun result() =
+fun result() = 
     html {
         head {
             title {+"XML encoding with Kotlin"}
@@ -412,19 +402,6 @@ fun result() =
             h1 {+"XML encoding with Kotlin"}
             p  {+"this format can be used as an alternative markup to XML"}
 
-            // an element with attributes and text content
-            a(href = "https://kotlinlang.org") {+"Kotlin"}
-
-            // mixed content
-            p {
-                +"This is some"
-                b {+"mixed"}
-                +"text. For more see the"
-                a(href = "https://kotlinlang.org") {+"Kotlin"}
-                +"project"
-            }
-            p {+"some text"}
-
             // content generated by
             p {
                 for (arg in args)
@@ -432,13 +409,7 @@ fun result() =
             }
         }
     }
-
 ```
 
 ---
 
-# Extension functions
-
-> Kotlin provides the ability to extend a class with new functionality without having to inherit from the class or use design patterns such as Decorator. This is done via special declarations called extensions.
-
-<iframe height="400" width="100%" src="https://pl.kotl.in/Z1px2hXOC"></iframe>
