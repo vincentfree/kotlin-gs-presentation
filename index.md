@@ -399,6 +399,12 @@ Previously this feature was called a inline class but that has changed recently.
 
 ---
 
+# Generics 
+
+<iframe height="450" width="100%" src="https://pl.kotl.in/-DbSdoPut"></iframe>
+
+---
+
 # Type safe builders (DSL)
 
 ```kotlin
