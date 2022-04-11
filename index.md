@@ -390,6 +390,12 @@ Flow control structures can be used as expressions which can produce a result. M
 
 ---
 
+# Generics 
+
+<iframe height="450" width="100%" src="https://pl.kotl.in/-DbSdoPut"></iframe>
+
+---
+
 # Type safe builders (DSL)
 
 ```kotlin
