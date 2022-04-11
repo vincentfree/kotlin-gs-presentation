@@ -13,12 +13,12 @@ pages link: https://vincentfree.github.io/kotlin-gs-presentation/
 
 * ~~Immutability (val/var)~~
 * ~~Expression vs statement: when, if, try, etc. (pertially covered)~~
-* Scope functions (extend existing)
+* ~~Scope functions (extend existing)~~
 * ~~Extension functions~~
 * Functions
-    * infix
-    * inline
-* Result (runCatching)
+  * infix
+  * inline
+* ~~Result (runCatching)~~
 * ~~Inline classes~~
 * Delegation
 * Generics
