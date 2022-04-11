@@ -432,7 +432,7 @@ fun result() =
 
 > The Delegation pattern has proven to be a good alternative to implementation inheritance, and Kotlin supports it natively requiring zero boilerplate code.
 
-<iframe height="500" width="100%" src="https://pl.kotl.in/ssBdn2XEq"></iframe>
+<iframe height="500" width="100%" src="https://pl.kotl.in/3AjBfoE7Q"></iframe>
 
 ---
 
