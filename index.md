@@ -367,6 +367,11 @@ Flow control structures can be used as expressions which can produce a result. M
 
 <iframe height="400" width="100%" src="https://pl.kotl.in/V_VTR4xS9"></iframe>
 
+<!-- 
+Sealed classes are classes that can only be extended from within the same file.
+In some sense, sealed classes are similar to enum classes, they are also called enums with superpowers.
+-->
+
 ---
 
 # Value classes
@@ -374,6 +379,10 @@ Flow control structures can be used as expressions which can produce a result. M
 > Create wrappers around a type.
 <iframe height="250" width="100%" src="https://pl.kotl.in/RIiweQYf6"></iframe>
 
+<!--
+Value classes are a way to create a wrapper around a type.
+Previously this feature was called a inline class but that has changed recently.
+-->
 ---
 
 # Extension functions
@@ -410,6 +419,14 @@ fun result() =
         }
     }
 ```
+
+---
+
+# Delegation
+
+> The Delegation pattern has proven to be a good alternative to implementation inheritance, and Kotlin supports it natively requiring zero boilerplate code.
+
+<iframe height="500" width="100%" src="https://pl.kotl.in/ssBdn2XEq"></iframe>
 
 ---
 
