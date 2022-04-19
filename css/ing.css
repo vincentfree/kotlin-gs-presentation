@@ -74,6 +74,17 @@ section.cover h2 {
     font-size: 20pt;
 }
 
+section.cover h3 {
+    font-style: bold;
+    background: var(--ing-orange);
+    display: block;
+    border-radius: 20px;
+    color: white;
+    margin-left: 200px;
+    margin-right: auto;
+    padding: 15px;
+}
+
 section.cover p {
     display: block;
     padding: 20px;
